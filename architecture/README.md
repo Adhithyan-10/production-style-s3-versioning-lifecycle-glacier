@@ -2,16 +2,22 @@
 
 This folder contains the architecture diagram and workflow explanation for the production-style S3 versioning and lifecycle management project.
 
+---
+
+# Architecture Diagram
+
+![Architecture Diagram](./Archh1.png)
+
+---
+
+# Architecture Overview
+
 The architecture demonstrates how AWS S3 Versioning and Lifecycle Policies work together to provide:
 
 * data protection
 * backup recovery
 * lifecycle automation
 * storage cost optimization
-
----
-
-# Architecture Overview
 
 The workflow demonstrates how:
 
@@ -31,7 +37,7 @@ This architecture represents a production-style cloud storage management workflo
 
 # Architecture Workflow
 
-```text id="flow1"
+```text id="b0pkhx"
 User Uploads Object
         ↓
 Amazon S3 Bucket
@@ -80,15 +86,3 @@ Noncurrent versions are moved to Glacier for low-cost long-term storage.
 ## Cost Optimization
 
 Frequently accessed files remain in S3 Standard while rarely accessed versions are archived into cheaper storage classes.
-
----
-
-# Architecture Diagram
-
-The architecture diagram file:
-
-```text id="archname"
-Archh1.png
-```
-
-explains the complete workflow visually.
