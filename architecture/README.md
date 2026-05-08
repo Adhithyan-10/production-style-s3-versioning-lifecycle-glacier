@@ -6,38 +6,38 @@ This folder contains the architecture diagram and workflow explanation for the p
 
 # Architecture Diagram
 
-![Architecture Diagram](./Archh1.png)
+![Architecture Diagram](./archy.png)
 
 ---
 
 # Architecture Overview
 
-The architecture demonstrates how AWS S3 Versioning and Lifecycle Policies work together to provide:
+This architecture demonstrates a production-style cloud storage workflow using:
+- Amazon S3
+- S3 Versioning
+- Lifecycle Policies
+- Amazon S3 Glacier
 
-* data protection
-* backup recovery
-* lifecycle automation
-* storage cost optimization
+The workflow shows how:
+- files are uploaded into Amazon S3
+- versioning preserves multiple object versions
+- older object versions become noncurrent versions
+- lifecycle policies automatically evaluate noncurrent versions
+- archived versions transition into Amazon S3 Glacier
+- storage costs are optimized while maintaining recoverability
 
-The workflow demonstrates how:
-
-* files are uploaded into Amazon S3
-* versioning preserves multiple object versions
-* lifecycle rules automatically manage old object versions
-* noncurrent versions are transitioned to Amazon S3 Glacier
-
-This architecture represents a production-style cloud storage management workflow commonly used for:
-
-* backups
-* archive storage
-* compliance retention
-* cost optimization
+This implementation represents a real-world storage lifecycle management architecture commonly used for:
+- backup systems
+- archival workflows
+- disaster recovery
+- compliance retention
+- cost-optimized cloud storage
 
 ---
 
 # Architecture Workflow
 
-```text id="b0pkhx"
+```text
 User Uploads Object
         ↓
 Amazon S3 Bucket
@@ -46,43 +46,10 @@ S3 Versioning Enabled
         ↓
 Multiple Object Versions Stored
         ↓
-Lifecycle Policy Triggered
+Lifecycle Policy Evaluates Noncurrent Versions
         ↓
 Noncurrent Versions Identified
         ↓
-Amazon S3 Glacier
+Transition to Amazon S3 Glacier
         ↓
 Storage Cost Optimization
-```
-
----
-
-# Key Concepts Demonstrated
-
-## S3 Versioning
-
-Protects objects from:
-
-* accidental deletion
-* overwriting
-* data loss
-
-Older versions remain recoverable inside the bucket.
-
----
-
-## Lifecycle Automation
-
-Lifecycle policies automatically manage old object versions without manual intervention.
-
----
-
-## Glacier Archival
-
-Noncurrent versions are moved to Glacier for low-cost long-term storage.
-
----
-
-## Cost Optimization
-
-Frequently accessed files remain in S3 Standard while rarely accessed versions are archived into cheaper storage classes.
