@@ -1,0 +1,3 @@
+This is Version 3 of the file.
+S3 should now store multiple versions of this object.
+This version should be the latest one.
