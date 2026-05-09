@@ -4,11 +4,9 @@ This folder contains the complete project documentation PDF for:
 
 # Production-Style S3 Versioning & Lifecycle Management on AWS
 
-## 📄 Included Documentation
+## 📄 Documentation File
 
-```text
-AWS_S3_Lifecycle_Management.pdf
-```
+👉 [View Full Documentation](./AWS_S3_Lifecycle_Management.pdf)
 
 The documentation includes:
 
