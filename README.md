@@ -291,8 +291,45 @@ This project demonstrates real-world AWS cloud storage optimization and automate
 
 ---
 
+# 👨‍💻 Author
+
+## Adhithyan Sivaraman T
+
+B.Tech student passionate about:
+- Cloud Computing
+- AWS Architecture
+- DevOps
+- Infrastructure Engineering
+- Project-Based Learning
+
+This project is part of my hands-on cloud engineering learning journey where I build production-style AWS projects to understand real-world cloud architecture, disaster recovery, automation, and infrastructure design concepts.
+
+---
+
+# 🔗 Connect With Me
+
+## LinkedIn
+👉 www.linkedin.com/in/adhithyan-sivaraman-t-399b5b362
+
+## GitHub
+👉 https://github.com/Adhithyan-10
+
+---
+
+# 🚀 More AWS & Cloud Projects
+
+I’m actively building more:
+- AWS Cloud Projects
+- DevOps Projects
+- Infrastructure Automation Projects
+- Production-Style Architecture Implementations
+
+Feel free to explore my GitHub profile for more hands-on cloud engineering projects and learning journeys.
+
+⭐ If you found this project useful, consider giving it a star!
+
 <div align="center">
 
-## ⭐ If you found this project useful, consider giving it a star!
+### Thanks for visiting this repository 🚀
 
 </div>
