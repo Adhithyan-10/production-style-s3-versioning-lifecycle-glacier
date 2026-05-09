@@ -4,8 +4,6 @@
 
 ### Automating Cloud Storage Optimization, Version Control & Glacier Archival using Amazon S3 Lifecycle Policies
 
-<img src="./architecture/archy.png" width="100%" alt="Architecture Diagram"/>
-
 <br>
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws)
